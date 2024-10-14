@@ -1,0 +1,260 @@
+html{
+    background-color: #0D1C30;
+    margin: 0;
+    will-change: auto;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'plaster'; 
+    src: url('/fonts/Plaster-Regular.ttf');
+    
+    font-family: 'notable';
+    src: url('/fonts/Notable-Regular.ttf');
+  }
+
+
+.menu{
+    font-size: 30px ;
+    align-items: center; 
+    border: 3px solid white;
+    font-family: plaster;
+    padding: 0px;
+    color: #ffffff;
+    margin: 10px 0px 40px 0px;
+}
+
+.menu ul{
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+    background-color: #0B1727;
+    margin: 0px ;
+    padding: 1px 5px;
+}
+.menu ul li :hover{
+   color: #0D1C30; 
+   background-color: #F89880;
+
+
+}
+.menu ul li{ 
+    padding: 1px;
+    transition: 0.3s;
+    
+}
+
+.menu ul li a{
+    padding: 0px 50px ;
+    text-decoration: none;
+    transition: 0.3s;
+    color: #ffffff;
+}
+
+.menu ul li:first-child {
+    margin-right: auto;
+}
+
+.logo{
+    font-size: 200px ;
+    align-items: center; 
+    font-family: notable;
+    padding: 0px;
+    margin : 0px;
+
+}
+.logo ul li{
+    list-style: none;
+    align-items: center; 
+
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    margin: 0px ;
+    padding: 1px 5px;
+}
+.logo ul {
+    top: 0;
+    left: 0;
+    position: relative;
+    animation-fill-mode: forwards;
+    margin-bottom: 0px;
+    height: 400px;
+}
+
+
+.logo ul :nth-child(1){
+    position: relative;
+    animation-name: logo1;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    color: #0D1C30;
+    animation-fill-mode: forwards;
+    -webkit-text-stroke-width: 10px;
+    -webkit-text-stroke-color: #ffffff;
+
+}
+
+.logo ul :nth-child(2){
+    position: relative;
+    animation-name: logo2;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    color: #464558;
+    animation-fill-mode: forwards;
+    -webkit-text-stroke-width: 10px;
+    -webkit-text-stroke-color: #ffffff;
+    
+
+}
+.logo ul  :nth-child(3){
+    position: relative;
+    animation-name: logo3;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    color: #886467;
+    animation-fill-mode: forwards;
+    -webkit-text-stroke-width: 10px;
+    -webkit-text-stroke-color: #ffffff;
+
+}
+.logo ul  :nth-child(4){
+
+    position: relative;
+    animation-name: logo4;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    color: #F89880;
+    animation-fill-mode: forwards;
+    -webkit-text-stroke-width: 10px;
+    -webkit-text-stroke-color: #ffffff;
+}
+
+@keyframes logo1 {
+    0% { top: -230px; }
+    100% { top: -210px; }
+}
+  
+@keyframes logo2 {
+0% { top: -500px; }
+100% { top: -390px; }
+}
+  
+@keyframes logo3 {
+0% { top: -760px; }
+100% { top: -565px; }
+}
+  
+@keyframes logo4 {
+0% { top: -1045px; }
+100% { top: -740px; }
+}       
+
+#defaultCanvas0 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: block;
+
+
+  }
+.home_text_space{
+    background-color: #0B1727;
+    margin: 20px;
+    padding: 0px;
+    border: 3px solid white;
+    height: 700px;
+}
+
+h1{
+    text-align: center;
+    font-family: notable;
+    font-size: 60px;
+    color: #F89880;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #ffffff;
+
+}
+p{
+    color: #ffffff;
+    font-family: notable;
+    font-size: 25px;
+    margin: 10px;
+}
+.intro_blurb{
+    align-items: end;
+    margin: 0px 100px 0 700px;
+    height: 0px;
+    top: 30px;
+}
+
+
+.html_logo {
+    align-items: start;
+}
+
+.html_logo img{
+    position: relative;
+    background-color: transparent;
+    left: 120px;
+    top:25px;
+    
+}
+.project{
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+
+}
+h2{
+    text-align: center;
+    font-family: notable;
+    font-size: 60px;
+    color: #F89880;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #ffffff;
+
+}
+
+.proj_select{
+    align-items: center;
+    width: 320px;
+    display:inline-flex;
+    padding: 20px ;
+    margin: 65px;
+
+    justify-content: center; 
+    background-color: #0B1727;
+    border: 3px solid white;
+    transition: 0.4s;
+
+}
+.project :hover{
+    background-color:#F89880 ;
+
+}
+.proj_select a{
+    text-decoration: none;
+
+}
+
+.proj_select p{
+    text-align: center;
+    font-family: notable;
+    font-size: 40px;
+    color: #ffffff;
+    transition: 0.4s;
+}
+
+.text_space{
+    background-color: #0B1727;
+    margin: 20px;
+    padding: 0px;
+    border: 3px solid white;
+    height: 850px;
+
+
+
+}
